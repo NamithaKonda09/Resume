@@ -1,5 +1,4 @@
-
-gunicorn
+gunicorn==20.0.4 
 django-heroku
 argcomplete==1.10.0
 asgiref==3.2.10
