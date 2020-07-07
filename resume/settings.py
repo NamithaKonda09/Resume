@@ -25,7 +25,7 @@ SECRET_KEY = 'db5210ewa@o5rx$vu3%7rm*@pu4uju#4i^m6_o8x022#l*$k_7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*.herokuapp.com']
+ALLOWED_HOSTS = ['rocky-spire-60088.herokuapp.com']
 
 
 # Application definition
