@@ -10,7 +10,8 @@ import pytesseract
 from pyresparser import ResumeParser
 from pytesseract import image_to_string
 import textract as tx
-from .preprocess_text import *
+from nltk import word_tokenize
+
 from sklearn.metrics.pairwise import cosine_similarity
 from gensim.models import Word2Vec
 import math
@@ -68,7 +69,6 @@ def findsimilarity(X, Y):
     Y_list = word_tokenize(Y)
 
 # sw contains the list of stopwords
-    sw = stopwords.words('english')
     l1 = []
     l2 = []
 
@@ -97,10 +97,10 @@ def findsimilarity(X, Y):
     return cosine
 
 
-def preprocess(words):
+"""def preprocess(words):
     words = normalize(words)
     words = ' '.join(map(str, words))
-    return words
+    return words"""
 
 
 def get_word2vec(resume, jd):
