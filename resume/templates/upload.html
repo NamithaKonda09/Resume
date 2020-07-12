@@ -7,6 +7,9 @@
 </form>
 {% if url %}
 <p>Uploaded file: <a href="{{ url }}">{{ url }}</a></p>
-<p>Contents:<br />{{ text }}</p>
+<h2>Score: {{ score }}</h2>
+<p>Resume Contents:<br /><pre>{{ resume_text | pprint }}</pre></p>
+<br>
+<p>Job Description Contents:<br /><pre>{{ jd_text | pprint }}</pre></p>
 
 {% endif %} {% endblock %}
