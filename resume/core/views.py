@@ -43,8 +43,8 @@ def upload(request):
         jd_text = ResumeParser(jd).get_extracted_data()
         resume_text = ResumeParser(
             latest_resume, skills_file='media/skills.csv').get_extracted_data()
-        score = findsimilarity(listtostr(resume_text['skills'])+listtostr(
-            resume_text['experience']), listtostr(jd_text['skills'])+listtostr(jd_text['experience']))
+        score = findsimilarity(
+            listtostr(resume_text['skills']), listtostr(jd_text['skills']))
         #score=cosine_sim(s1, s2)
         context['resume_text'] = resume_text
         context['jd_text'] = jd_text

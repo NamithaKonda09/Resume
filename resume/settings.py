@@ -26,7 +26,7 @@ SECRET_KEY = 'db5210ewa@o5rx$vu3%7rm*@pu4uju#4i^m6_o8x022#l*$k_7'
 DEBUG = True
 #ALLOWED_HOSTS = ['0.0.0.0']
 #ALLOWED_HOSTS = ['127.0.0.1']
-ALLOWED_HOSTS = ['rocky-spire-60088.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'rocky-spire-60088.herokuapp.com']
 
 
 # Application definition
