@@ -86,7 +86,7 @@ ptyprocess==0.6.0
 pyahocorasick==1.4.0
 pycodestyle==2.6.0
 pycryptodome==3.9.8
-Pygments==2.6.1
+Pygments==2.7.4
 pylint==2.5.3
 pyparsing==2.4.7
 pyresparser==1.0.6
