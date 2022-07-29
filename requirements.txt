@@ -55,7 +55,7 @@ lazy-object-proxy==1.4.3
 lxml==4.5.1
 MarkupSafe==1.1.1
 mccabe==0.6.1
-mistune==0.8.4
+mistune==2.0.3
 msgpack==0.6.2
 msgpack-numpy==0.4.6.post0
 msgpack-python==0.5.6
